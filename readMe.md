@@ -50,7 +50,7 @@ plot1(["IN",'BD'],internet_ind,"internet acces per million")
 ```
 ![internet users in india and bangladesh](./image/graph1.png)
 ```python
-onecon(['BD'],"Bangladesh Graphs")#thefollowing functions takes in the parmeter(onecountry alpha code as list,title)and provides the variton of each parameters over years 
+onecon(['BD'],"Bangladesh Graphs")#thefollowing functions takes in the parmeter(onecountry alpha code as list,title)and     provides the variton of each parameters over years 
 ```
 ![internet users in india and bangladesh](./image/ban.png)
 
@@ -63,3 +63,21 @@ onecon(['BD'],"Bangladesh Graphs")#thefollowing functions takes in the parmeter(
 
 
 ## Links
+[world bank api library documentation](https://pypi.org/project/world-bank-data/)
+
+
+[Accesing data through its api example using python and R ](https://blogs.worldbank.org/opendata/accessing-world-bank-data-apis-python-r-ruby-stata)
+
+[Accesing data through its api example in kaggle](https://www.kaggle.com/paultimothymooney/how-to-query-the-world-bank-education-data/data?select=series_summary)
+
+[Api git link](https://github.com/OliverSherouse/wbdata)
+
+[world bank Education Statistics (EdStats)](https://datatopics.worldbank.org/education/)
+
+[world bank country list](https://data.worldbank.org/country)
+
+[world banck indicators](https://data.worldbank.org/indicator)
+
+[country name and alpha codes](https://www.iban.com/country-codes)
+
+[World Bank Country and Lending Groups](https://datahelpdesk.worldbank.org/knowledgebase/articles/906519-world-bank-country-and-lending-groups)
