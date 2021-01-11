@@ -40,7 +40,7 @@ wbdata.get_indicator(source=12)
 ```python
 df_country.head(16)
 ```
-![countries list](./table1.png)
+![countries list](./image/table1.png)
 
 ### Performing data visualization based on the indicators and comparing it with different countries.
 ```python
@@ -48,11 +48,11 @@ plot1(["IN",'BD'],internet_ind,"internet acces per million")
 #the following function takes in input as(country, indicator,title for graph) and provides a line grapg over  years 2009-2019 as per the data available.
 
 ```
-![internet users in india and bangladesh](./graph1.png)
+![internet users in india and bangladesh](./image/graph1.png)
 ```python
 onecon(['BD'],"Bangladesh Graphs")#thefollowing functions takes in the parmeter(onecountry alpha code as list,title)and provides the variton of each parameters over years 
 ```
-![internet users in india and bangladesh](./ban.png)
+![internet users in india and bangladesh](./image/ban.png)
 
 # conclusions
 
