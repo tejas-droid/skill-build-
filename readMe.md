@@ -26,6 +26,7 @@ pip install -U wbdat #Api for accesing world bank data
 wbdata.get_source() #data source available in world banck data 
 wbdata.get_source(12) #the source required for this project 12 = Education Statistics
 wbdata.get_indicator(source=12)
+df = wbdata.get_dataframe(indicator, country=(list of country),convert_date=False )
  ```
  ### The following indicators which include the secondary or high school students Education status of diffrenct countries over past years.
 * School enrollment, secondary, private (% of total secondary)
@@ -42,6 +43,15 @@ df_country.head(16)
 ```
 ![countries list](./image/table1.png)
 
+## Based on the above dataframe which contains the countries list in sorted  decsending order. 
+## Dividing countries based on the continents
+### ASIA 
+### Bangladesh , india ,pakisthan, nepal, srilanka,china.
+## Europe 
+### Germany,France,Ukraine,Irleand,poland,Finland,UK.
+## America
+### usa, Brazil,cuba,coloumbia,Argentina.
+
 ### Performing data visualization based on the indicators and comparing it with different countries.
 ```python
 plot1(["IN",'BD'],internet_ind,"internet acces per million")
@@ -55,8 +65,10 @@ onecon(['BD'],"Bangladesh Graphs")#thefollowing functions takes in the parmeter(
 ![internet users in india and bangladesh](./image/ban.png)
 
 # conclusions
-
-
+[google Collab link]()
+ * From the above exploration we can note that after considering some of the major feature like internet and other sub features we can say in asia the best countries would be bangladesh ,china and india.
+ * From the above exploration it can been seen that barzil and USA in America.
+* From the above exploration it can been seen that polland , britan and finland in Europe.
 
 
 
