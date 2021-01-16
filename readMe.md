@@ -1,5 +1,5 @@
 # Apply exploratory analysis with Python for Business Values
-ValuesSkills: Data pre-processing, descriptive statistics, Python 
+Values Skills: Data pre-processing, descriptive statistics, Python 
 # Task
 The manager invited you to a meeting to introduce you to the company's international expansion project. He asks you to do an exploratory analysis to see if the education data of the World Bank can inform the academy's expansion project.Here are the questions you have been asked to explore:   
  ● Which countries have a high customer potential for our services?    
@@ -13,7 +13,7 @@ The manager invited you to a meeting to introduce you to the company's internati
 ```bash
 pip install pandas 
 pip install matplotlib
-pip install -U wbdat #Api for accesing world bank data
+pip install -U wbdat #Api for accessing the world bank data
  ```
  ### Importing the libraries 
  ```python
@@ -28,7 +28,7 @@ wbdata.get_source(12) #the source required for this project 12 = Education Stati
 wbdata.get_indicator(source=12)
 df = wbdata.get_dataframe(indicator, country=(list of country),convert_date=False )
  ```
- ### The following indicators which include the secondary or high school students Education status of diffrent countries over past years.
+ ### The following indicators which include the secondary or high school students education status of different countries over the past years.
 * School enrollment, secondary, private (% of total secondary)
 * Secondary education, teachers
 * Pupil-teacher ratio, secondary
@@ -45,7 +45,7 @@ df_country.head(16)
 
 ## Based on the above dataframe which contains the countries list in sorted descending order. 
 ## Dividing countries based on the continents
-### ASIA 
+### Asia 
 ### Bangladesh, India, Pakisthan, Nepal, Srilanka, China.
 ## Europe 
 ### Germany, France, Ukraine, Irleand, Poland, Finland, UK.
@@ -60,13 +60,13 @@ plot1(["IN",'BD'],internet_ind,"internet acces per million")
 ```
 ![internet users in india and bangladesh](./image/graph1.png)
 ```python
-onecon(['BD'],"Bangladesh Graphs")#thefollowing functions takes in the parmeter(onecountry alpha code as list,title)and provides the variation of each parameters over years 
+onecon(['BD'],"Bangladesh Graphs")#the following functions takes in the parameter(one country alpha code as list, title)and provides the variation of each parameters over years 
 ```
 ![internet users in india and bangladesh](./image/ban.png)
 
 # Conclusions
 [google Collab link](https://github.com/tejas-droid/skill-build-/blob/main/edstatsanalysis.ipynb)
- * ### From the above exploration we can note that after considering some of the major features like internet and other sub features we can say in Asia the best countries would be Bangladesh, China and India.
+ * ### From the above exploration we can note that after considering some of the major features like internet and other sub features we can say in Asia the best countries would        be Bangladesh, China and India.
  * ### From the above exploration it can been seen that Brazil and USA in America.
  * ### From the above exploration it can been seen that Poland, Britain and Finland in Europe.
 
